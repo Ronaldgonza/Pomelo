@@ -1,0 +1,21 @@
+.pay_pse{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid #6AAF50;
+    margin: 0;
+}
+
+.pay_pse h1{
+    font-family: 'Roboto Condensed';
+    font-size: 16px;
+    align-items: center;
+    font-weight: bold;
+    margin:0;
+    
+}
+
+.pay_pse img{
+    width: 30px;
+    height: 30px;
+}

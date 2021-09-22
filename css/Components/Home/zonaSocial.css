@@ -1,0 +1,33 @@
+.ZonaSocial{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+    background-color: #86B22C;
+    
+    flex-wrap: wrap;
+    padding: 0 10px;
+    align-items: center;
+}
+
+.containerZona {
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 40px;
+    min-width: 200px;
+}
+
+.containerZona h2{
+    margin: 0;
+    text-align: center;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+    font-size: 15px;
+    
+}
+
+.containerZona img{
+    height:55px;
+    align-items: center;
+    margin-bottom:10px;
+}
