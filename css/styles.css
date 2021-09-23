@@ -1,33 +1,36 @@
 /* font-family: 'Roboto', sans-serif;
 font-family: 'Roboto Condensed', sans-serif; */
 
-@import './vars.css';
-@import './text.css';
+@import "./vars.css";
+@import "./text.css";
 
-@import './Views/home.css';
+@import "./Views/home.css";
 
-body{
-    margin: 0;
+body {
+  margin: 0;
 }
 
-*{
-    box-sizing: border-box;
-    font-family: var(--main-font-family);
+* {
+  box-sizing: border-box;
+  font-family: var(--main-font-family);
 }
 
-h1{
-    font-size:24px;
+button {
+  outline: none;
+  border: none;
+  cursor: pointer;
 }
 
-h2{
-    font-size:22px;
+.button {
+  background: var(--main-color);
+  border: 1px solid var(--main-color);
+  border-radius: 5px;
+  color: white;
+  padding: 10px 20px;
 }
 
-h3{
-    font-size:20px;
+.button:hover {
+  background-color: white;
+  font-weight: 600;
+  color: var(--main-color);
 }
-
-p{
-    font: size 20px;
-}
-
