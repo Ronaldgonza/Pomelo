@@ -1,0 +1,33 @@
+/* font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Condensed', sans-serif; */
+
+@import './vars.css';
+@import './text.css';
+
+@import './Views/home.css';
+
+body{
+    margin: 0;
+}
+
+*{
+    box-sizing: border-box;
+    font-family: var(--main-font-family);
+}
+
+h1{
+    font-size:24px;
+}
+
+h2{
+    font-size:22px;
+}
+
+h3{
+    font-size:20px;
+}
+
+p{
+    font: size 20px;
+}
+

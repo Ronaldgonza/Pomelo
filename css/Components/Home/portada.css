@@ -1,4 +1,37 @@
+/* lo que este aca se va a aplicar para todos los tamaños */
 .portada img{
-  width: calc(100%);
-  height: calc(40vh);
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+}
+
+/*  min-width -> desde >= 320 <= 766 */
+
+
+@media screen and (min-width:320px){
+
+}
+
+
+@media screen and (min-width:425px){
+  
+}
+
+
+@media screen and (min-width:767px){
+
+  .portada img{
+    height:650px;
+  }
+}
+
+@media screen and (min-width:1024px){
+
+  .portada img{
+    height:700px;
+  }
+}
+
+@media screen and (min-width:1240px){
+
 }
