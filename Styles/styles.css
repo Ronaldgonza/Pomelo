@@ -5,6 +5,7 @@ font-family: 'Roboto Condensed', sans-serif; */
 @import "./text.css";
 
 @import "./Views/home.css";
+@import "./Views/login.css";
 
 body {
   margin: 0;
