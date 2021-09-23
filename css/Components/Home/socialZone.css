@@ -1,4 +1,4 @@
-.ZonaSocial{
+.socialZone{
     display: flex;
     justify-content: space-around;
     margin-bottom: 100px;
@@ -8,24 +8,23 @@
     flex-wrap: wrap;
 }
 
-.containerZona {
+.containers {
     padding: 10px;
     text-align: center;
     margin-bottom: 40px;
     min-width: 150px;
 }
 
-.containerZona h2{
+.containers h3{
     margin: 0;
     text-align: center;
     color: white;
-    font-family: 'Roboto', sans-serif;
     letter-spacing: 1px;
-    font-size: 15px;
+    
     
 }
 
-.containerZona img{
+.containers img{
     height:55px;
     align-items: center;
     margin-bottom:10px;

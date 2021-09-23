@@ -25,7 +25,7 @@ El programa de ADSI, propone analizar, diseñar y construir una aplicación soft
 
 ## 3. Demo
 
-- [DEPLOY](https://lkguevara.github.io/Pomelo/)
+- [DEPLOY](https://conjuntopomelo.netlify.app)
 - [Figma](https://www.figma.com/file/0fTgzGf0Lf84edblmcSBCP/ConjuntoResidencialPomelo?node-id=0%3A1)
 
 ## 4. Cómo clonar 
