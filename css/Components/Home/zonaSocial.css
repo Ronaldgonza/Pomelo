@@ -3,17 +3,16 @@
     justify-content: space-around;
     margin-bottom: 100px;
     background-color: #86B22C;
-    
-    flex-wrap: wrap;
     padding: 0 10px;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .containerZona {
     padding: 10px;
     text-align: center;
     margin-bottom: 40px;
-    min-width: 200px;
+    min-width: 150px;
 }
 
 .containerZona h2{
