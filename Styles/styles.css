@@ -9,6 +9,9 @@ font-family: 'Roboto Condensed', sans-serif; */
 
 body {
   margin: 0;
+  background-image:  radial-gradient(#6AAF50 0.5px, transparent 0.5px), radial-gradient(#6AAF50 0.5px, #e7ecdf 0.5px);
+  background-size: 20px 20px;
+  background-position: 0 0,10px 10px;
 }
 
 * {
