@@ -1,53 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../Styles/styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../Styles/styles.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto:wght@300&display=swap"
       rel="stylesheet"
     />
     <title>Registrate</title>
-</head>
-<body>
-    <div class="container_register">
-        <form class="form">
-            <h2>Registrate</h2>
+  </head>
+  <body>
+    <div class="container__register">
+      <form class="form__register">
+        <h2>Registrate</h2>
 
-            <div class="form__container">
-                <div class="form__names">
-                    <input type="text" id="name" class="form__input" placeholder="Nombre:">
-                    <input type="text" id="last-name" class="form__input" placeholder="Apellidos:">
-                </div>
+        <div class="form__container">
+          <input
+            type="text"
+            id="name"
+            class="form__input"
+            placeholder="Nombre:"
+          />
 
-                <div class="form__data">
-                    <input type="text" id="identification" class="form__input" placeholder="Cédula:">
-                    <input type="number" id="movil" class="form__input" placeholder="Celular:">
-                </div>
+          <input
+            type="text"
+            id="last-name"
+            class="form__input"
+            placeholder="Apellidos:"
+          />
 
-                <div class="form__mail">
-                    <input type="email" id="email" class="form__input" placeholder="Email:">
-                    <input type="password" id="password" class="form__input" placeholder="Contraseña:">
-                </div>
-                
-                <div class="form__apartment">
-                    <input type="number" id="torre" class="form__input" placeholder="Torre:"><input type="number" id="apto" class="form__input" placeholder="Apartamento:">
-                </div>
-                
-                <input type="submit" class="form__submit" value="Ingresar">
-            </div>
+          <input
+            type="text"
+            id="identification"
+            class="form__input"
+            placeholder="Cédula:"
+          />
 
-            <p class="form__paragraph">¿Se te olvidó la contraseña?<a href="#" class="form__link"> Inicia sesión</a></p>
+          <input
+            type="number"
+            id="movil"
+            class="form__input"
+            placeholder="Celular:"
+          />
 
-        </form>
+          <input
+            type="email"
+            id="email"
+            class="form__input"
+            placeholder="Email:"
+          />
 
-        <figure class="image__form">
-            <img src="../Media/Login/ilustration-login.svg" alt="">
-        </figure>  
+          <input
+            type="password"
+            id="password"
+            class="form__input"
+            placeholder="Contraseña:"
+          />
+
+          <input
+            type="number"
+            id="torre"
+            class="form__input"
+            placeholder="Torre:"
+          />
+
+          <input
+            type="number"
+            id="apto"
+            class="form__input"
+            placeholder="Apartamento:"
+          />
+
+          <button class="form__submit button">Registrate</button>
+        </div>
+
+        <div class="form__infoText">
+          ¿Se te olvidó la contraseña?
+          <a href="#" class="form__link__login">Entra aquí</a>
+        </div>
+
+        <div class="form__infoText">
+          ¿Ya tienes una cuenta?
+          <a href="#" class="form__link__login">Login</a>
+        </div>
+      </form>
+
+      <img
+        class="image__form"
+        src="../Media/Login/ilustration-login.svg"
+        alt=""
+      />
     </div>
-    
-    
-</body>
+  </body>
 </html>

@@ -1,91 +1,74 @@
 .classified {
-    margin: 20px 0;
-  }
-  
-  .classified__title {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .classified__title h2 {
-    font-family: var(--main-font-family);
-    position: absolute;
-    color: white;
-    font-size: 16px;
-  }
-  
-  .classified__cardsContainer {
-    margin: 10px 0;
-    padding: 0;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  
-  .classifiedCard {
-    padding: 20px;
-    margin: 40px 30px;
-    box-shadow: 0px 6px 8px 2px rgba(143, 143, 143, 0.352);
-    border-radius: 10px;
-    width: 50%;
-    display: flex;
-    width: 80%;
-    flex-direction: column;
-    position: relative;
-    overflow: hidden;
-    max-width: 310px;
-  }
-  
-  .classifiedCard::after {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    background: url(../../../Media/Icons/Rectangle.svg) center center no-repeat;
-    z-index: 1999;
-    width: 75px;
-    height: 106px;
-  }
-  
-  .classifiedCard img {
-    height: 190px;
-    object-fit: cover;
-  }
-  
-  .classifiedCard__text {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .classifiedCard__text p {
-    margin-top: 5px;
-    text-align: justify;
-  }
-  
-  .classifiedCard__text h3 {
-    text-align: center;
-    /* font-size: 22px; */
-  }
-  
-  .classifiedCard__text .rectangule {
-    width: 100px;
-    margin-left: 450px;
-  }
-  
-  @media screen and (min-width: 320px) {
-    
-  }
-  
-  @media screen and (min-width: 767px) {
-    
-  }
-  
-  @media screen and (min-width: 1024px) {
-    
-  }
-  
-  @media screen and (min-width: 1240px) {
-    
-  }
+  margin: 20px 0;
+}
+
+.classified__cardsContainer {
+  margin: 10px 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.classifiedCard {
+  padding: 20px;
+  margin: 40px 30px;
+  box-shadow: 0px 6px 8px 2px rgba(143, 143, 143, 0.352);
+  border-radius: 10px;
+  width: 50%;
+  display: flex;
+  width: 80%;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+  max-width: 310px;
+}
+
+.classifiedCard::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: url(../../../Media/Icons/Rectangle.svg) center center no-repeat;
+  z-index: 1999;
+  width: 75px;
+  height: 106px;
+}
+
+.classifiedCard img {
+  height: 190px;
+  object-fit: cover;
+}
+
+.classifiedCard__text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.classifiedCard__text p {
+  margin-top: 5px;
+  text-align: justify;
+}
+
+.classifiedCard__text h3 {
+  text-align: center;
+  /* font-size: 22px; */
+}
+
+.classifiedCard__text .rectangule {
+  width: 100px;
+  margin-left: 450px;
+}
+
+@media screen and (min-width: 320px) {
+}
+
+@media screen and (min-width: 767px) {
+}
+
+@media screen and (min-width: 1024px) {
+}
+
+@media screen and (min-width: 1240px) {
+}

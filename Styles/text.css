@@ -1,26 +1,25 @@
 /* media queries... de los h.. */
-@media screen and (min-width: 320px) {
-  h1,
-  h2,
-  h3 {
-    font-family: var(--second-font-family);
-  }
 
-  h1 {
-    font-size: 18px;
-  }
+h1,
+h2,
+h3 {
+  font-family: var(--second-font-family);
+}
 
-  h2 {
-    font-size: 16px;
-  }
+h1 {
+  font-size: 18px;
+}
 
-  h3 {
-    font-size: 14px;
-  }
+h2 {
+  font-size: 16px;
+}
 
-  p {
-    font-size: 14px;
-  }
+h3 {
+  font-size: 14px;
+}
+
+p {
+  font-size: 14px;
 }
 
 @media screen and (min-width: 425px) {

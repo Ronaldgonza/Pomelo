@@ -1,45 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../Styles/styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../Styles/styles.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto:wght@300&display=swap"
       rel="stylesheet"
     />
     <title>Iniciar Sesión</title>
-</head>
-<body>
-    <div class="container_login">
-        <form class="form__login">
-            <h2>Inicia Sesión</h2>
+  </head>
+  <body>
+    <div class="container__login">
+      <form class="form__login">
+        <h2>Inicia Sesión</h2>
 
-            <div class="form__container__login">
-                <div>
-                    <input type="email" id="email" class="form__input__login" placeholder="Email:">
-                    <span class="form__line"></span>
-                </div>
+        <div class="form__container">
+          <input
+            type="email"
+            id="email"
+            class="form__input"
+            placeholder="Email:"
+          />
+          <input
+            type="password"
+            id="password"
+            class="form__input"
+            placeholder="Contraseña:"
+          />
 
-                <div>
-                    <input type="password" id="password" class="form__input__login" placeholder="Contraseña:">
-                </div>
-                
-                <input type="submit" class="form__submit__login" value="Ingresar">
-            </div>
+          <button class="button">Ingresar</button>
+        </div>
 
-            <p class="form__paragraph__login">¿Se te olvidó la contraseña?<a href="#" class="form__link__login"> Entra aquí</a></p>
+        <div class="form__infoText">
+          ¿Se te olvidó la contraseña?
+          <a href="#" class="form__link__login">Entra aquí</a>
+        </div>
 
-            <p class="form__paragraph__login">¿No tienes cuenta?<a href="#" class="form__link__login"> Registrate</a></p>
-            
-        </form>
+        <div class="form__infoText">
+          ¿No tienes cuenta?
+          <a href="#" class="form__link__login">Registrate</a>
+        </div>
+      </form>
 
-        <figure class="image__form">
-            <img src="../Media/Login/ilustration-login.svg" alt="">
-        </figure>  
+      <img
+        class="image__form"
+        src="../Media/Login/ilustration-login.svg"
+        alt=""
+      />
     </div>
-    
-    
-</body>
+  </body>
 </html>
