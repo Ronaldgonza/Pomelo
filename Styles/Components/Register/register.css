@@ -1,4 +1,4 @@
-.container_login{
+.container_register{
     display: flex;
     justify-content: space-evenly;
     align-items:center;
@@ -7,35 +7,54 @@
     
 }
 
-.form__login{
+.form{
     background-color: white;
     margin: auto;
     padding: 60px 40px;
     border-radius: 20px;
     box-shadow: 5px 6px 8px 2px rgba(143, 143, 143, 0.352);
     border-radius: 15px;
-    border: 1px solid var(--main-color);
+    border: 1px solid #6AAF50;
     text-align:center;
     position:relative;
-    left: 10%
+    left: 10%;
+    width:40%;
    
 }
 
-.form__container__login{
+.form__container{
     margin: 40px 0;
     display: grid;
     gap: 30px;
     
 }
 
-.form__input__login{
+.form__input{
     width: 100%;
     background: none;
     color: #6AAF50;
     padding: 5px;
-    border: none;
-    border-bottom: 1px solid var(--main-color);
+    border: 1px solid #6AAF50;
+    border-bottom: 1px solid #6AAF50;
 
+}
+
+
+.form__names{
+    display: flex;
+}
+.form__apartment{
+    display: flex;
+
+}
+
+.form__data{
+    display: flex;
+
+}
+
+.form__mail{
+    display: flex;
 }
 
 input[type="submit"]{
@@ -44,7 +63,7 @@ input[type="submit"]{
     margin: auto;
 }
 
-.form__submit__login {
+.form__submit {
     background: var(--main-color);
     border: 1px solid var(--main-color);
     border-radius: 5px;
@@ -54,17 +73,17 @@ input[type="submit"]{
     
 }
 
-.form__submit__login:hover {
+.form__submit:hover {
     background-color: white;
     font-weight: 600;
     color: var(--main-color);
 }
 
-.form__paragraph__login{
+.form__paragraph{
     font-size: 12px;
 }
 
-.form__link__login{
+.form__link{
     text-decoration: none;
 }
 
@@ -77,14 +96,24 @@ input[type="submit"]{
   .image__form img{
       display: none;
   }
+
+  .form{
+    width:90%;
+  }
+
+  .form__input{
+      font-size:10px;
+  }
 }
 
 @media screen and (min-width: 425px) {
-  
+    .form__input{
+        font-size:12px;
+    }
 }
 
 @media screen and (min-width: 767px) {
-    .container_login{
+    .container_register{
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -92,15 +121,19 @@ input[type="submit"]{
     
     .image__form img{
         display: flex;
-        width:300px;
+        width:250px;
         margin:0;
         
     }
     .image__form{
         margin: 0;
-        width: 40%;
+        width: 30%;
         
     }
+
+    .form{
+        width:40%;
+      }
 
 }
 
