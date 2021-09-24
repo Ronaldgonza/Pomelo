@@ -19,6 +19,11 @@ body {
   font-family: var(--main-font-family);
 }
 
+input {
+  outline: none;
+  padding: 10px 10px;
+}
+
 button {
   outline: none;
   border: none;
@@ -31,6 +36,7 @@ button {
   border-radius: 5px;
   color: white;
   padding: 10px 20px;
+  cursor: pointer;
 }
 
 .button:hover {
