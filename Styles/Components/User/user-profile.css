@@ -1,0 +1,132 @@
+.container__profile{
+    display: flex;
+    justify-content:space-around;
+    width: 100%;
+}
+
+.container__navigation__profile{
+    width: 20%;
+    margin-top: auto;
+
+    
+}
+
+
+.navigation__profile{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 5px 6px 8px 2px rgba(143, 143, 143, 0.352);
+    border-radius: 10px;
+    border: 1px solid var(--main-color);
+    width: 100%;
+    
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+    border-bottom: 0.5px solid rgb(209, 208, 208);
+    font-family: var(--second-font-family);
+    padding: 20px;
+    
+}
+
+
+
+.container__user__profile{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  /* height: 100vh; */
+  /* overflow-x: hidden; */
+}
+
+.form__user__profile h2{
+    text-align: center;
+    font-family: var(--second-font-family);
+}
+
+.image__user__profile{
+    padding: 40px;
+    width: 25%;
+    max-width:200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form__user__profile{
+    width: 80%;
+}
+
+.form__container__profile{
+    display: grid;
+    gap: 40px;
+    
+}
+
+input[type="text__profile"],
+input[type="email__profile"],
+input[type="number__profile"]{
+    margin-right: 10px;
+    width: 48%;
+}
+
+
+
+@media screen and (min-width: 320px) {
+    .container__navigation__profile{
+        display: none;
+    }
+
+    .container__user__profile{
+        width: 100%;
+    }
+
+    input[type="text__profile"],
+    input[type="email__profile"],
+    input[type="number__profile"]{
+        margin-bottom: 10px;
+        width: 100%;
+    }
+
+    .image__user__profile{
+        width: 80%;
+    }
+
+    .form__container__profile{
+        display: grid;
+        gap: 5px;
+        
+    }
+}
+
+@media screen and (min-width: 767px){
+    .container__navigation__profile{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .container__user__profile{
+        width: 50%;
+    }
+
+    input[type="text__profile"],
+    input[type="email__profile"],
+    input[type="number__profile"]{
+        margin-bottom: 10px;
+        width: 100%;
+    }
+
+
+    .container__navigation__profile{
+        width: 40%;
+        max-width:250px;
+        margin-top: 200px;
+
+    }
+
+    
+}
