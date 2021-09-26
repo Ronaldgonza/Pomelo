@@ -8,6 +8,7 @@ font-family: 'Roboto Condensed', sans-serif; */
 @import "./Views/login.css";
 @import "./Views/register.css";
 @import "./Views/user.css";
+@import "./Views/clasificados.css";
 
 body {
   margin: 0;
