@@ -108,13 +108,23 @@
     height: 46px;
     top: 56px;
 }
+
+.container_p{
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+
+.container_l{
+    width: 280px;
+}
 .container__inputs input{
     width: 394px !important;
     height: 46px !important;
     top: 56px !important;
 }
 .container__inputs p{
-    width: 300px !important;
+    width: 284 !important;
     /* width: 153px !important; */
     height: 23px !important;
     left: 2px !important;
