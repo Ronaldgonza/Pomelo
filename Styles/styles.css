@@ -9,6 +9,8 @@ font-family: 'Roboto Condensed', sans-serif; */
 @import "./Views/register.css";
 @import "./Views/user.css";
 @import "./Views/clasificados.css";
+@import "./Views/footer.css";
+@import "./Components/PSE/pse.css";
 
 body {
   margin: 0;
