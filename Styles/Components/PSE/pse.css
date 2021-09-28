@@ -1,0 +1,132 @@
+.grid__container__form_pse{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+.grid__container__info_pse{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+.grid__container__info_pse p{
+    width: 394px;
+    height: 46px;
+    left: 0px;
+    top: 56px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    
+    color: #000000;
+    
+}
+
+.grid__container__info_pse h3{
+    width: 394px;
+    height: 46px;
+    top: 10px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+
+    color: #000000;
+}
+.container__form__pse img {
+    position: absolute;
+    width: 204px;
+    height: 110px;
+    left: 100px;
+    top: 387px;
+}
+.container__inputs button {
+    width: 160px;
+    height: 40px;
+    left: 5px;
+    top: 30px !important;
+
+    background: #566833;
+    border: 1px solid #6C63FF;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.form__pse{
+    position: absolute;
+    width: 728px;
+    height: 334px;
+    left: 465px;
+    top: 337px;
+}
+
+.container_padre {
+    display: flex;
+}
+
+.container_padre label{
+    text-align: left;
+    margin: 5em 0 0 0;
+    display: block;
+
+}
+
+
+/* .container_inputs label{
+} */
+
+.form__pse input {
+    width: 203px;
+    height: 20px;
+    left: 385px;
+    top: 14px;
+
+    background: #FFFFFF;
+    border: 1px solid #6C63FF;
+    box-sizing: border-box;
+}
+.form__pse p{
+    left: 22px;
+    top: 14px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: left;
+
+    color: #000000;
+}
+.container__inputs {
+    width: 394px;
+    height: 46px;
+    top: 56px;
+}
+.container__inputs input{
+    width: 394px !important;
+    height: 46px !important;
+    top: 56px !important;
+}
+.container__inputs p{
+    width: 300px !important;
+    /* width: 153px !important; */
+    height: 23px !important;
+    left: 2px !important;
+    top: 114px !important;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    align-items: right;
+    text-align: right !important;
+
+    color: #000000;
+}
